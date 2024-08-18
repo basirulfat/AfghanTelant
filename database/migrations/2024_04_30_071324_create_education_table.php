@@ -23,6 +23,9 @@ return new class extends Migration
             $table->string('university_type')->nullable();
             $table->string('country')->nullable();
             $table->string('city')->nullable();
+            $table->string('lang1')->nullable();
+            $table->string('lang2')->nullable();
+            $table->string('lang3')->nullable();
             $table->text('description')->nullable();
             $table->timestamps();
         });

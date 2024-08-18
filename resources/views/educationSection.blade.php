@@ -148,7 +148,13 @@
                   {{$message}}
                   @enderror
                  </span>
+              </div>
 
+              <div class="form-control">
+                <label for="Language">Languages</label>
+                <input type="text" id="username" name="lang1" placeholder="Enter language" />
+                <input type="text" id="username" name="lang2" placeholder="Enter language" />
+                <input type="text" id="username" name="lang3" placeholder="Enter language" />  
               </div>
 
               <div class="form-control-2">

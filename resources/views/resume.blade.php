@@ -120,10 +120,11 @@
             </ul>
           </div>
           <div class="contactInfo language">
+            
             <h3 class="title">Languages</h3>
             <ul>
               <li>
-                <span class="text">English</span>
+                <span class="text">{{$e->lang1}}</span>
                 <span class="percent">
                   <div class="englishw50"></div>
                 </span>
@@ -131,7 +132,7 @@
             </ul>
             <ul>
               <li>
-                <span class="text">Russian</span>
+                <span class="text">{{$e->lang2}}</span>
                 <span class="percent">
                   <div class="russianw90"></div>
                 </span>
@@ -139,7 +140,7 @@
             </ul>
             <ul>
               <li>
-                <span class="text">French</span>
+                <span class="text">{{$e->lang3}}</span>
                 <span class="percent">
                   <div class="frenchw30"></div>
                 </span>
@@ -162,7 +163,8 @@
             <h2 class="title2">Experience</h2>
             <div class="box">
               <div class="year_company">
-                <h5>2020 - Present</h5>
+                <h5>Start Year{{$ex->start_year}}</h5>
+                <h5>End Year {{$ex->end_year}}</h5>
                 <h5>Company Name</h5>
               </div>
               <div class="text">

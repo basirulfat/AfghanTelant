@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->string('job_title')->nullable();
+            $table->date('start_year')->nullable();
+            $table->date('end_year')->nullable();
             $table->string('seniority')->nullable();
             $table->string('location')->nullable();
             $table->timestamps();

@@ -35,13 +35,16 @@ class ExperienceController extends Controller
             [
             'job_title' => 'required|regex:/^[A-Za-z\s]{5,50}$/',
             'seniority' => 'required|regex:/^[A-Za-z\s]{5,50}$/',
-
+            'start_year'=>'required',
+            'end_year'=>'required',
             'location' => 'required',
             ]
                );
         $Experience = new experience();
         $Experience->user_id=auth()->id();
         $Experience->job_title=$request->input('job_title');
+        $Experience->start_year=$request->input('start_year');
+        $Experience->end_year=$request->input('end_year');
         $Experience->seniority=$request->input('seniority');
         $Experience->location=$request->input('location');
         $Experience->save();

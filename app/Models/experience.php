@@ -10,6 +10,8 @@ class experience extends Model
     use HasFactory;
     protected $fillable = [
         'job_title',
+        'start_year',
+        'end_year',
         'seniority',
         'location',
         

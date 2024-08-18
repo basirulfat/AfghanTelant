@@ -18,6 +18,9 @@ class Education extends Model
         'university_type',
         'country',
         'city',
+        'lang1',
+        'lang2',
+        'lang3',
         'description',
         'password',
         

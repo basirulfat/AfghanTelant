@@ -53,6 +53,10 @@ class EducationController extends Controller
         $education->university_type=$request->input('university_type');
         $education->country=$request->input('country');
         $education->city=$request->input('city');
+        $education->lang1=$request->input('lang1');
+        $education->lang2=$request->input('lang2');
+        $education->lang3=$request->input('lang3');
+
         $education->description=$request->input('description');
         $education->save();
         // return redirect()->route('education.index');

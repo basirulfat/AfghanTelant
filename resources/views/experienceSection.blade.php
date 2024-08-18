@@ -65,6 +65,16 @@
                  </span>
         </div>
 
+        <div class="form-1">
+          <input type="date" id="username" placeholder="Start Year" name="start_year" />
+          
+        </div>
+
+        <div class="form-1">
+          <input type="date" id="username" placeholder="End Year" name="end_year" />
+         
+        </div>
+
         <div class="form-control">
         <label for="optionsInput">@lang('msg.creat43')</label>
           <input type="text" name="seniority" id="optionsInput" class="options-input" placeholder="Seniority">
